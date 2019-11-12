@@ -75,7 +75,6 @@ public class Player : MonoBehaviour
         _uiManager.UpdateCoinDisplay(_coins);
     }
     
-    // TODO : find when fall, respawn at start, loose a life
     public void Damage()
     {
         _lives--;
